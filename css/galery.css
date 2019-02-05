@@ -1,0 +1,47 @@
+.galery{
+  display: table; 
+  width: 100%;
+  max-width: 960px;
+}
+
+.photo{
+  float: left; 
+  width: 33%; 
+  box-sizing: border-box;
+}
+
+.photo img {
+	max-width: 100%;
+	display: block;
+	height: auto;
+  padding: 10px;
+  background-color: #eee;
+  box-sizing: border-box;
+}
+
+.photo a:hover {
+  opacity: .5;
+}
+
+.photo a {
+  display: block;
+  position: relative;
+}
+
+.photo a:after {
+  content: '';
+  background: transparent url(../img/eye-icon.png) no-repeat center;
+  width: 52px;
+  height: 35px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  visibility: hidden;
+}
+
+.photo:hover > a:after {
+  visibility: visible;
+}

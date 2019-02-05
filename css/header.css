@@ -1,0 +1,28 @@
+.header {
+  position: fixed;
+  width: 100%;
+  background: #fff;
+
+  top: 0;
+  opacity: .7;
+  display: block;
+  z-index: 2;
+}
+
+.header-nav {
+  vertical-align: baseline;
+  line-height: 10px;
+}
+
+.header-list {
+  list-style: none;
+  padding-left: 30px;
+  margin: 20px;
+  display: inline-block;
+  float: right;
+}
+
+.header-logo {
+  float: left;
+  display: inline;
+}

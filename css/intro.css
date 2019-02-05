@@ -1,0 +1,10 @@
+.intro {
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll, fixed;
+  background-position: 0 0%, center top;
+  min-height: 350px;
+  height: 420px;
+  margin-top: 75px;
+}
