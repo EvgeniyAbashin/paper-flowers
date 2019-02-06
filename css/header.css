@@ -2,11 +2,10 @@
   position: fixed;
   width: 100%;
   background: #fff;
-
   top: 0;
   opacity: .7;
   display: block;
-  z-index: 2;
+  z-index: 1;
 }
 
 .header-nav {
@@ -25,4 +24,17 @@
 .header-logo {
   float: left;
   display: inline;
+}
+
+@media (max-width: 960px) {
+  .header {
+    position: absolute;
+    float: none;
+}
+
+@media (max-width: 960px) {
+  .header-list {
+    display: block;
+    float: none;
+    text-align: right;
 }

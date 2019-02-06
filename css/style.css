@@ -3,6 +3,8 @@
   padding: 0;
 }
 
+
+
 html, body {
   background-color: #f3f3f3;
   height: 100%;
@@ -64,4 +66,14 @@ a:hover {
   text-align: center;
   padding: 10px;
   background: #fff;
+}
+
+@media (max-width: 960px) {
+  p {
+    font-size: 16px;
+}
+
+@media (max-width: 960px) {
+  h2 {
+    font-size: 25px;
 }
